@@ -1,0 +1,123 @@
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(30deg, #414140, #ffdd55, #ffdd55, #ffffff );
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: auto;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.selected {
+    background-color: #ffffff;
+    color: white;
+}
+
+.result-visao {
+    border: #000;
+    border-radius: 5px;
+    border-style: solid;
+    width: 500px;
+    height: 50px;
+    text-align-last: center;
+    align-content: center;
+}
+
+.m {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.imgTotal {
+    width: 100%;
+    height: 210px; /* Exemplo de altura fixa */
+    object-fit: cover;
+}
+
+.imgTamanho {
+    width: 400px; 
+    height: 300px;
+}
+
+.Whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
+
+.rodape {
+    
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado */
+    padding: 20px; /* Espaçamento interno */
+    position: relative; /* Posição padrão */
+    bottom: 0; /* Fixa o rodapé no final */
+    width: 100%;
+}
+    
+.rodape-conteudo {
+    max-width: 1200px; /* Largura máxima */
+    margin: auto; /* Centraliza o conteúdo */
+}
+    
+.rodape a {
+        
+    color: #aaa; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 10px; /* Espaçamento entre links */
+}
+    
+.rodape a:hover {
+    color: #fff; /* Cor ao passar o mouse */
+}
+    
+.rodape p {
+    margin: 10px 0; /* Espaçamento entre parágrafos */
+    font-size: 0.9em; /* Tamanho do texto */
+}
+
+
+  

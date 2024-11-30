@@ -1,0 +1,282 @@
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(30deg, #414140, #ffdd55, #ffdd55, #ffffff );
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: auto;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selected {
+    background-color: #ffffff;
+    color: white;
+}
+
+.result-visao {
+    border: #000;
+    border-radius: 5px;
+    border-style: solid;
+    width: 500px;
+    height: 50px;
+    text-align-last: center;
+    align-content: center;
+}
+
+.m {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 25px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgTotal {
+    width: 100%;
+    height: 450px; /* Exemplo de altura fixa */
+    object-fit: cover;
+    
+}
+
+.imgTamanho {
+    width: 400px; 
+    height: 300px;
+}
+
+.Whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+}
+
+.rodape {
+    
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado */
+    padding: 20px; /* Espaçamento interno */
+    position: relative; /* Posição padrão */
+    bottom: 0; /* Fixa o rodapé no final */
+}
+    
+.rodape-conteudo {
+    max-width: 1200px; /* Largura máxima */
+    margin: auto; /* Centraliza o conteúdo */
+}
+    
+.rodape a {
+        
+    color: #aaa; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    margin: 0 10px; /* Espaçamento entre links */
+}
+    
+.rodape a:hover {
+    color: #fff; /* Cor ao passar o mouse */
+}
+    
+.rodape p {
+    margin: 10px 0; /* Espaçamento entre parágrafos */
+    font-size: 0.9em; /* Tamanho do texto */
+}
+
+  button {
+    margin: 20px;
+    
+  }
+
+.custom-btn {
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.btn-1 {
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+  }
+  .btn-1:hover {
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 850px;
+    margin: 0 auto;
+    grid-gap: 40px;
+    padding-bottom: 80px;
+  }
+
+  .card{
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 40px;
+
+    box-shadow: 6px 6px 10px rgb(0, 0, 0, 0.171);
+    border-radius: 10%;
+  }
+
+  .card .user{
+    width: 100px;
+    height: 100px;
+  }
+
+  .card h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 30px; 
+    width: 100%; 
+  }
+
+  .card p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;	
+  }
+  html {
+    font-family: "helvetica neue", sans serif;
+  }
+  .nav {
+    border-bottom: solid 1px #000000;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu {
+    margin: 0 30px 0 0;
+  }
+  .menu a {
+    clear: right;
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    padding: 15px 15px 15px 15px;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 19px;
+  }
+  .menu a:hover {
+    background-color: #888;
+    color: #333;
+  }
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+  }
+  #toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    label {
+      display: block;
+      cursor: pointer;
+    }
+    .menu {
+      text-align: center;
+      width: 100%;
+      display: none;
+      position: static;
+    }
+    .menu a {
+      display: block;
+      border-bottom: solid 1px #eaeaeb;
+      margin: 0;
+      padding: 0;
+    }
+    .menu a:hover {
+      color:#fff;
+      background-color: #f0f0f0;
+    }
+  
+    #toggle:checked + .menu {
+      display: block;
+    }
+  }
