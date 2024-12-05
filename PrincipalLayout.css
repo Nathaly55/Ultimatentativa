@@ -74,7 +74,7 @@ h2 {
 
 .imgTotal {
     width: 100%;
-    height: 450px; /* Exemplo de altura fixa */
+    height: 650px; /* Exemplo de altura fixa */
     object-fit: cover;
     
 }
